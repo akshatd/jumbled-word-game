@@ -5,7 +5,7 @@ wordfile = open("words.txt")
 words = list(x.rstrip() for x in wordfile)
 
 # take input
-input_word = raw_input("Enter the word to be checked: ")
+input_word = raw_input("Enter the word to be checked: ").lower()
 
 # find all permutations that can be checked
 for n in xrange(2, (len(input_word)/2) + 1):
