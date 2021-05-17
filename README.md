@@ -1,4 +1,4 @@
-# jumbled_word_game
+# Jumbled Word Game
 * given a set of jumbled letters, find all possible combinations of 2 word pairs from it
 
 * example:
